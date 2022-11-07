@@ -9,16 +9,16 @@ The project requires [Java 11] or higher.
 
 * Program Description
 
-    A service component to determine whether the input event is a replacement of previous failed event; and return 
+    A service component to find the event to be replaced; and determine whether the input event is a replacement of previous failed event; and return 
     ```
         a. the event id to be replaced
-        b. an indicate whether it is a replacement
+        b. an indicator about whether the incoming event is a replacement
     ```
 
 
 `Tasks`
 ```
-    a. To update EventService.getResultEvent & EventRepositoryImpl.getResultEvent methods to return correct . Free Feel to use querydsl, JPA query, SQL query or any other that you are confortable with  
+    a. To update EventService.getResultEvent & EventRepositoryImpl.getResultEvent methods to return correct result. Free Feel to use querydsl, JPA query, SQL query or any other that you are confortable with  
     b. To Update and Run all tests cases under EventServiceTest. And all cases should be passed
 ```
 
