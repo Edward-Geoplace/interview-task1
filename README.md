@@ -11,8 +11,8 @@ The project requires [Java 11] or higher.
 
     A service component to find the event to be replaced; and determine whether the input event is a replacement of previous failed event; and return 
     ```
-        a. the event id to be replaced
-        b. an indicator about whether the incoming event is a replacement
+        a. the event id to be replaced, i.e. the failed event
+        b. an indicator about whether the incoming event is a replacement of result (a)
     ```
 
 
